@@ -1,4 +1,4 @@
-package inventory.inventory.user.domain.model.enums;
+package inventory.inventory.domain.model.enums;
 
 public enum RolePermission {
     VIEW_PRODUCTS,

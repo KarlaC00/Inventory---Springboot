@@ -1,7 +1,7 @@
-package inventory.inventory.user.domain.model;
+package inventory.inventory.domain.model.user;
 
-import inventory.inventory.user.domain.model.enums.Status;
-import inventory.inventory.user.domain.model.enums.TypeIdentification;
+import inventory.inventory.domain.model.enums.Status;
+import inventory.inventory.domain.model.enums.TypeIdentification;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,10 +21,13 @@ public class UserModel {
     private String email;
     private String identificationNumber;
     private String password;
-    private RoleModel roleModel;
     private Status status;
     private TypeIdentification typeidentification;
     private LocalDateTime lastLogin;
     private LocalDateTime createAt;
     private LocalDateTime updateAt;
+    private boolean isAnAdmin;
+
+    private InventoryGroup inventoryGroup;
+    private RoleModel roleModel;
 }
