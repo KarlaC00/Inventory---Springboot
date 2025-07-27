@@ -22,7 +22,7 @@ public class UserModel {
     private String identificationNumber;
     private String password;
     private Status status;
-    private TypeIdentification typeidentification;
+    private TypeIdentification typeIdentification;
     private LocalDateTime lastLogin;
     private LocalDateTime createAt;
     private LocalDateTime updateAt;

@@ -6,5 +6,6 @@ public class SubcategoryModel {
     private Long categoryId;
     private String categoryName;
     private Status categoryStatus;
+
     private CategoryModel category;
 }

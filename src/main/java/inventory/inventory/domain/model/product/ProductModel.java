@@ -8,5 +8,8 @@ public class ProductModel {
     private String productName;
     private String productDescription;
     private BigDecimal productPrice;
+    private int productQuantity;
     private Status productStatus;
+
+    private SubcategoryModel subcategory;
 }
