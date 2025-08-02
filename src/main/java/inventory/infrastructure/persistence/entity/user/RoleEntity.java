@@ -26,5 +26,5 @@ public class RoleEntity {
     private Set<RolePermission> rolePermissions;
 
     @OneToMany(mappedBy = "roleEntity")
-    private List<UserEntity> userEntity;
+    private List<UserEntity> users;
 }

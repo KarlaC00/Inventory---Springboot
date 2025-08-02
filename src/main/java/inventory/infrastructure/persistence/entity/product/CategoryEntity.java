@@ -22,6 +22,6 @@ public class CategoryEntity {
     private Status categoryStatus;
 
     @OneToMany(mappedBy = "category")
-    private List<SubcategoryEntity> subcategory;
+    private List<SubcategoryEntity> subcategories;
 
 }

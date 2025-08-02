@@ -16,5 +16,5 @@ public class RoleModel {
     private Long id;
     private String roleName;
     private Set<RolePermission> rolePermission;
-    private List<UserEntity> userEntity;
+    private List<UserModel> userModel;
 }

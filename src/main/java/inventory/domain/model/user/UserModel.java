@@ -18,18 +18,20 @@ import java.util.List;
 @Builder
 public class UserModel {
     private Long id;
+
     private String username;
     private String firstname;
     private String lastname;
     private String email;
     private String identificationNumber;
     private String password;
-    private Status userStatus;
     private TypeIdentification typeIdentification;
+
     private LocalDateTime lastLogin;
     private LocalDateTime createAt;
     private LocalDateTime updateAt;
     private boolean isAnAdmin;
+    private Status userStatus;
 
     private InventoryGroupModel inventoryGroupModel;
     private RoleModel roleModel;

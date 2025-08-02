@@ -53,5 +53,5 @@ public class UserEntity {
     private RoleEntity roleEntity;
 
     @OneToMany(mappedBy = "createdBy")
-    private List<MovementEntity> createdMovement;
+    private List<MovementEntity> createdMovements;
 }
